@@ -30,7 +30,8 @@ body {
 #name-input,
 #horoscopeHeader,
 .ratingSelector,
-#picture-input {
+#picture-input,
+#APIs {
   background-color: white;
   font-weight: bold;
 }
