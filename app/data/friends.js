@@ -14,7 +14,7 @@ var friends = [
   },
   {
     name: "YukieK",
-    photo: "../assets/images/YukieK.jpq",
+    photo: "../assets/images/YukieK.jpg",
     sign: "taurus",
     scores: [1, 1, 5, 3, 3, 5, 1, 2, 3, 4]
   },
