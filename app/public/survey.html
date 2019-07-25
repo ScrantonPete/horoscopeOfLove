@@ -296,15 +296,15 @@
     if ($("#name").val() === "" || $("#photo").val() === "") {
       validate = false;
     } else if (
-      $("#question1").val() === "empty" ||
-      $("#question2").val() === "empty" ||
-      $("#question3").val() === "empty" ||
-      $("#question4").val() === "empty" ||
-      $("#question5").val() === "empty" ||
-      $("#question6").val() === "empty" ||
-      $("#question7").val() === "empty" ||
-      $("#question8").val() === "empty" ||
-      $("#question9").val() === "empty" ||
+      $("#question01").val() === "empty" ||
+      $("#question02").val() === "empty" ||
+      $("#question03").val() === "empty" ||
+      $("#question04").val() === "empty" ||
+      $("#question05").val() === "empty" ||
+      $("#question06").val() === "empty" ||
+      $("#question07").val() === "empty" ||
+      $("#question08").val() === "empty" ||
+      $("#question09").val() === "empty" ||
       $("#question10").val() === "empty"
     ) {
       validate = false;
@@ -321,21 +321,23 @@
           .val()
           .trim(),
         scores: [
-          $("#question1").val(),
-          $("#question2").val(),
-          $("#question3").val(),
-          $("#question4").val(),
-          $("#question5").val(),
-          $("#question6").val(),
-          $("#question7").val(),
-          $("#question8").val(),
-          $("#question9").val(),
+          $("#question01").val(),
+          $("#question02").val(),
+          $("#question03").val(),
+          $("#question04").val(),
+          $("#question05").val(),
+          $("#question06").val(),
+          $("#question07").val(),
+          $("#question08").val(),
+          $("#question09").val(),
           $("#question10").val()
         ]
       };
-      var currentURL = window.location.origin;
+      console.log(newUser);
+      // var currentURL = window.location.origin;
       // Ajax call for receiving response after POST req
-      $.post(currentURL + "/api/friends", newUser, function(data) {
+      $.post("/api/friends", newUser, function(data) {
+        console.log(data);
         $("#bestMatch").text(data.name);
         $("#bestMatchPhoto").attr("src", data.photo);
         console.log(data.photo);

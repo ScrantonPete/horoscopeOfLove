@@ -2,32 +2,32 @@
 var friends = [
   {
     name: "PeteR",
-    photo: "https://drive.google.com/open?id=1YK9Fe5duA4A7kIvsPGQw7V7BkfFaHIMu",
+    photo: "../assets/images/PeteR.jpg",
     sign: "cancer",
     scores: [5, 1, 2, 3, 1, 2, 5, 1, 1, 1]
   },
   {
     name: "WoodleyJ",
-    photo: "https://drive.google.com/open?id=1wukaG1nVQgNzmaXRilM0UFXoxBwZG2Nj",
+    photo: "../assets/images/WoodleyJ.jpg",
     sign: "gemini",
     scores: [2, 5, 4, 1, 2, 3, 3, 2, 3, 3]
   },
   {
     name: "YukieK",
-    photo: "https://drive.google.com/open?id=1h6p-lX5Kyf3jq223VriSfepCzdSN1AXH",
+    photo: "../assets/images/YukieK.jpq",
     sign: "taurus",
     scores: [1, 1, 5, 3, 3, 5, 1, 2, 3, 4]
   },
   {
     name: "ironam1",
-    photo: "https://drive.google.com/open?id=15F5uyWCHPKT1mceLz6ceBpS1ROSPCvL1",
+    photo: "../assets/images/ironam1.jpg",
     sign: "scorpio",
     scores: [3, 1, 3, 5, 2, 3, 2, 2, 5, 5]
   },
   {
     name: "TobyJ",
     sign: "gemini",
-    photo: "https://drive.google.com/open?id=1gwWpN52iRItS_YUZsEmdVtpuG0lYRX1j",
+    photo: "../assets/images/TobyJ.jpg",
     scores: [3, 1, 4, 4, 2, 4, 2, 5, 1, 3]
   }
 ];
